@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper and Sissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Game Heading -->
+    <h1>Rock, Paper and Sissor</h1>
+    <div class="choices">
+        <!-- Rock -->
+        <div class="choice" id="Rock">
+            <img src="gallery\rock.png">
+        </div>
+        <!-- Paper -->
+        <div class="choice" id="Paper">
+            <img src="gallery\paper.png">
+        </div>
+        <!-- sissor -->
+        <div class="choice" id="Sissor">
+            <img src="gallery\scissors.png">
+        </div>
+    </div>
+    <!-- scores -->
+    <div class="score-board">
+        <div class="score">
+            <p id="userScore">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="compScore">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <!-- messege -->
+    <div class="msg-container">
+        <p id="msg">Choose your move</p>
+    </div>
+
+    <!-- Script added -->
+    <script src="game.js"></script>
+</body>
+</html>
